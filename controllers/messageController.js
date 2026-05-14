@@ -1,9 +1,17 @@
 import normalizeMessage from "../utils/normalizeMessage.js";
+import classifyQuery from "../services/classifierService.js";
 export const handleIncomingMessage = async (req, res) => {
   try {
 
     const payload = req.body;
+
     const normalizedMessage = normalizeMessage(payload);
+
+    const queryType = classifyQuery(
+      normalizedMessage.message_text
+    );
+
+    normalizedMessage.query_type = queryType;
 
     console.log("Normalized Message:", normalizedMessage);
 
@@ -13,7 +21,9 @@ export const handleIncomingMessage = async (req, res) => {
     });
 
   } catch (error) {
+
     console.log("Controller Error:", error);
+
     return res.status(500).json({
       success: false,
       message: "Internal Server Error"
