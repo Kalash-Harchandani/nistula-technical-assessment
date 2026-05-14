@@ -1,6 +1,9 @@
 import normalizeMessage from "../utils/normalizeMessage.js";
 import classifyQuery from "../services/classifierService.js";
+import generateAIReply from "../services/claudeService.js";
+
 export const handleIncomingMessage = async (req, res) => {
+
   try {
 
     const payload = req.body;
@@ -13,11 +16,16 @@ export const handleIncomingMessage = async (req, res) => {
 
     normalizedMessage.query_type = queryType;
 
-    console.log("Normalized Message:", normalizedMessage);
+    const draftedReply = await generateAIReply(
+      normalizedMessage
+    );
 
     return res.status(200).json({
       success: true,
-      data: normalizedMessage
+      data: {
+        ...normalizedMessage,
+        drafted_reply: draftedReply
+      }
     });
 
   } catch (error) {

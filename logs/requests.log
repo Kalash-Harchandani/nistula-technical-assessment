@@ -45,3 +45,51 @@ Payload:
 
 --------------------------------------------------
 
+
+[2026-05-14T05:58:47.609Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:00:22.888Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:02:05.871Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
