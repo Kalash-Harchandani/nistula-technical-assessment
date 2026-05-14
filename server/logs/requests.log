@@ -237,3 +237,35 @@ Payload:
 
 --------------------------------------------------
 
+
+[2026-05-14T06:46:00.713Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "airbnb",
+  "guest_name": "Aarav Malhotra",
+  "message": "Hi, what is the rate for 3 nights for 2 adults and is the villa available from April 20 to 24?",
+  "timestamp": "2026-05-10T11:15:00Z",
+  "booking_ref": "NIS-2024-5521",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:46:08.984Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
