@@ -1,0 +1,239 @@
+[2026-05-14T05:53:07.878Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T05:55:11.724Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "direct",
+  "guest_name": "Rohan Verma",
+  "message": "What is the WiFi password and check-in time?",
+  "timestamp": "2026-05-09T14:20:00Z",
+  "booking_ref": "NIS-2024-4120",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T05:55:22.714Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T05:58:47.609Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:00:22.888Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:02:05.871Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:12:25.218Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "whatsapp",
+  "guest_name": "Rahul Sharma",
+  "message": "Is the villa available from April 20 to 24? What is the rate for 2 adults?",
+  "timestamp": "2026-05-05T10:30:00Z",
+  "booking_ref": "NIS-2024-0891",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:13:03.071Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:13:18.072Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "instagram",
+  "guest_name": "Priya Kapoor",
+  "message": "Can I arrange airport pickup and early check-in?",
+  "timestamp": "2026-05-08T09:00:00Z",
+  "booking_ref": "NIS-2024-3098",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:13:32.643Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "direct",
+  "guest_name": "Rohan Verma",
+  "message": "What is the WiFi password and check-in time?",
+  "timestamp": "2026-05-09T14:20:00Z",
+  "booking_ref": "NIS-2024-4120",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:15:17.990Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "instagram",
+  "guest_name": "Priya Kapoor",
+  "message": "Can I arrange airport pickup and early check-in?",
+  "timestamp": "2026-05-08T09:00:00Z",
+  "booking_ref": "NIS-2024-3098",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:15:24.052Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:16:15.737Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:16:22.525Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "booking_com",
+  "guest_name": "David Wilson",
+  "message": "The AC is not working and this is unacceptable. I want a refund.",
+  "timestamp": "2026-05-07T20:45:00Z",
+  "booking_ref": "NIS-2024-2045",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
+
+[2026-05-14T06:16:48.497Z]
+POST /webhook/message
+
+Payload:
+{
+  "source": "airbnb",
+  "guest_name": "Aarav Malhotra",
+  "message": "Hi, what is the rate for 3 nights for 2 adults and is the villa available from April 20 to 24?",
+  "timestamp": "2026-05-10T11:15:00Z",
+  "booking_ref": "NIS-2024-5521",
+  "property_id": "villa-b1"
+}
+
+--------------------------------------------------
+
