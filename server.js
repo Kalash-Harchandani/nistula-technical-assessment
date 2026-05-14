@@ -1,14 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-
+import webhookRoutes from "./routes/webhookRoutes.js";
 dotenv.config();
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-
+app.use("/webhook", webhookRoutes);
 app.get("/health", (req, res) => {
   res.status(200).json({
     success: true,
